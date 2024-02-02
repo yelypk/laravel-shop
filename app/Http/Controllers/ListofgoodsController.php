@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
  
 use Illuminate\View\View;
  
-class listofgoods extends Controller
+class ListofgoodsController extends Controller
 {
     /**
      * Show the profile for a given user.
@@ -16,4 +16,4 @@ class listofgoods extends Controller
     }
 }
 
-?>
+

@@ -17,5 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-use App\http\Controllers\listofgoods
-Route::get('/listofgoods', [listofgoods::class, 'index']);
+use App\Http\Controllers\ListofgoodsController;
+Route::get('/listofgoods', [ListofgoodsController::class, 'index']);
+
+
+
+Route::get('/foo', function () {
+    return view('listofgoods');
+});
